@@ -1,6 +1,6 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-23T15:41:13+00:00",
+  "generated_at": "2026-06-23T22:53:09+00:00",
   "signal_date": "2026-06-22",
   "buy": [],
   "sell": [
@@ -12,7 +12,7 @@
       "exit_price": 46.3031,
       "pnl_pct": -4.9608,
       "bars_in_trade": 12,
-      "trade_id": "BRE_MGM_GAP_FILL_a6297d",
+      "trade_id": "BRE_MGM_GAP_FILL_c815e9",
       "entry_date": "2026-06-04"
     }
   ],
