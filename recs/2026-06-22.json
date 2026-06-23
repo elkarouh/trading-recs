@@ -1,6 +1,6 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-23T10:24:25+00:00",
+  "generated_at": "2026-06-23T10:28:58+00:00",
   "signal_date": "2026-06-22",
   "buy": [],
   "sell": [
@@ -12,63 +12,10 @@
       "exit_price": 46.3031,
       "pnl_pct": -4.9608,
       "bars_in_trade": 12,
-      "trade_id": "BRE_MGM_GAP_FILL_fbdc97",
+      "trade_id": "BRE_MGM_GAP_FILL_056f3f",
       "entry_date": "2026-06-04"
     }
   ],
   "adjust_stop": [],
-  "hold": [
-    {
-      "ticker": "ASTS",
-      "strategy": "HEIKIN ASHI",
-      "entry_price": 124.0,
-      "current_stop": 61.5916,
-      "original_stop": 61.5916,
-      "take_profit": 264.9711,
-      "current_price": 73.19,
-      "bars_in_trade": 18,
-      "unrealized_pct": -40.9758,
-      "trade_id": "BRE_ASTS_HEIKIN ASHI_c70c00",
-      "entry_date": "2026-05-27"
-    },
-    {
-      "ticker": "CLSK",
-      "strategy": "ORDER_BLOCK",
-      "entry_price": 17.83,
-      "current_stop": 13.6155,
-      "original_stop": 13.6155,
-      "take_profit": 31.4558,
-      "current_price": 17.45,
-      "bars_in_trade": 17,
-      "unrealized_pct": -2.1312,
-      "trade_id": "BRE_CLSK_ORDER_BLOCK_f7c372",
-      "entry_date": "2026-05-28"
-    },
-    {
-      "ticker": "OUST",
-      "strategy": "ORDER_BLOCK",
-      "entry_price": 43.58,
-      "current_stop": 26.2697,
-      "original_stop": 26.2697,
-      "take_profit": 95.5743,
-      "current_price": 47.68,
-      "bars_in_trade": 18,
-      "unrealized_pct": 9.408,
-      "trade_id": "BRE_OUST_ORDER_BLOCK_131727",
-      "entry_date": "2026-05-27"
-    },
-    {
-      "ticker": "PENN",
-      "strategy": "SMC_CONFLUENCE",
-      "entry_price": 19.48,
-      "current_stop": 14.2955,
-      "original_stop": 14.2955,
-      "take_profit": 28.979,
-      "current_price": 20.83,
-      "bars_in_trade": 16,
-      "unrealized_pct": 6.9302,
-      "trade_id": "BRE_PENN_SMC_CONFLUENCE_86f4cc",
-      "entry_date": "2026-05-29"
-    }
-  ]
+  "hold": []
 }
