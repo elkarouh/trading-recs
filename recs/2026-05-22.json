@@ -1,0 +1,23 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-25T14:52:22+00:00",
+  "signal_date": "2026-05-22",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ALAB",
+      "strategy": "GAP_FILL",
+      "entry_price": 300.0,
+      "current_stop": 259.8059,
+      "original_stop": 259.8059,
+      "take_profit": 352.7935,
+      "current_price": 306.88,
+      "bars_in_trade": 1,
+      "unrealized_pct": 2.2933,
+      "trade_id": "BRE_ALAB_GAP_FILL_d17ff4",
+      "entry_date": "2026-05-22"
+    }
+  ]
+}

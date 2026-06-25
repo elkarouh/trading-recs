@@ -1,0 +1,79 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-25T15:03:46+00:00",
+  "signal_date": "2026-06-05",
+  "buy": [],
+  "sell": [
+    {
+      "ticker": "ARM",
+      "strategy": "GAP_FILL",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 407.535,
+      "exit_price": 365.7988,
+      "pnl_pct": -10.2411,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_ARM_GAP_FILL_d2136e",
+      "entry_date": "2026-06-03"
+    },
+    {
+      "ticker": "CLF",
+      "strategy": "GAP_FILL",
+      "exit_reason": "FILL_EXPIRED",
+      "entry_price": 14.1625,
+      "exit_price": 14.1625,
+      "pnl_pct": 0.0,
+      "bars_in_trade": 0,
+      "trade_id": "BRE_CLF_GAP_FILL_2d4a8f",
+      "entry_date": ""
+    },
+    {
+      "ticker": "CSCO",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 126.16,
+      "exit_price": 127.844,
+      "pnl_pct": 1.3348,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_CSCO_GAP_FILL_2002ba",
+      "entry_date": "2026-06-03"
+    },
+    {
+      "ticker": "IONQ",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 69.64,
+      "exit_price": 61.5014,
+      "pnl_pct": -11.6866,
+      "bars_in_trade": 6,
+      "trade_id": "BRE_IONQ_GAP_FILL_8ed237",
+      "entry_date": "2026-05-29"
+    },
+    {
+      "ticker": "RIVN",
+      "strategy": "GAP_FILL",
+      "exit_reason": "FILL_EXPIRED",
+      "entry_price": 18.0975,
+      "exit_price": 18.0975,
+      "pnl_pct": 0.0,
+      "bars_in_trade": 0,
+      "trade_id": "BRE_RIVN_GAP_FILL_80ef14",
+      "entry_date": ""
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "MGM",
+      "strategy": "GAP_FILL",
+      "entry_price": 48.72,
+      "current_stop": 45.2539,
+      "original_stop": 45.2539,
+      "take_profit": 54.1221,
+      "current_price": 47.51,
+      "bars_in_trade": 2,
+      "unrealized_pct": -2.4836,
+      "trade_id": "BRE_MGM_GAP_FILL_d67923",
+      "entry_date": "2026-06-04"
+    }
+  ]
+}
