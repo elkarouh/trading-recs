@@ -271,8 +271,11 @@ function renderData(data) {
     + '<span class="badge badge-hold">' + holds.length + ' HOLD</span>'
     + '</p>';
 
+  var buyInner = _currentBuys.length
+    ? '<div id="buy-table-wrap"></div>'
+    : '<p class="empty">None</p>';
   var buyWrap = '<h2>🟢 BUY — ' + _currentBuys.length + ' signals for next open</h2>'
-    + '<div id="buy-table-wrap"></div>';
+    + buyInner;
 
   document.getElementById('content').innerHTML = meta
     + buyWrap
@@ -283,33 +286,55 @@ function renderData(data) {
     + section('🔵 HOLD — ' + holds.length + ' open positions',
         holds.length ? '<table>' + holdTable(holds) + '</table>' : null);
 
-  rebuildBuyTable();
+  if (_currentBuys.length) rebuildBuyTable();
 }
 
 /* ── load ─────────────────────────────────────────────────────────────── */
+function showErr(msg) {
+  var el = document.getElementById('content');
+  if (el) el.innerHTML = '<p class="empty">' + msg + '</p>';
+}
+
+function fetchJSON(url, timeoutMs) {
+  timeoutMs = timeoutMs || 10000;
+  var ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+  var timer = ctrl ? setTimeout(function() { ctrl.abort(); }, timeoutMs) : null;
+  var opts = ctrl ? { signal: ctrl.signal } : {};
+  return fetch(url, opts).then(function(r) {
+    if (timer) clearTimeout(timer);
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + r.statusText);
+    return r.json();
+  }).catch(function(e) {
+    if (timer) clearTimeout(timer);
+    throw e;
+  });
+}
+
 function loadDate(date) {
-  document.getElementById('content').innerHTML = '<p class="empty">Loading…</p>';
-  fetch('recs/' + date + '.json')
-    .then(function(r) { if (!r.ok) throw new Error(r.statusText); return r.json(); })
+  showErr('Loading…');
+  fetchJSON('recs/' + date + '.json')
     .then(renderData)
     .catch(function(e) {
-      document.getElementById('content').innerHTML =
-        '<p class="empty">Failed to load ' + date + ': ' + e.message + '</p>';
+      var msg = (e && e.name === 'AbortError') ? 'Timed out loading ' + date
+              : 'Failed to load ' + date + ': ' + (e && e.message || e);
+      showErr(msg);
     });
 }
 
-fetch('manifest.json')
-  .then(function(r) { return r.json(); })
+fetchJSON('manifest.json')
   .then(function(dates) {
     var sel = document.getElementById('date-picker');
+    if (!sel) return;
     sel.innerHTML = dates.map(function(d) {
       return '<option value="' + d + '">' + d + '</option>';
     }).join('');
     if (dates.length) loadDate(dates[0]);
+    else showErr('No recommendation dates available yet.');
   })
-  .catch(function() {
-    document.getElementById('content').innerHTML =
-      '<p class="empty">Could not load manifest.json</p>';
+  .catch(function(e) {
+    var msg = (e && e.name === 'AbortError') ? 'Timed out loading manifest'
+            : 'Could not load manifest.json: ' + (e && e.message || e);
+    showErr(msg);
   });
 </script>
 </body>
