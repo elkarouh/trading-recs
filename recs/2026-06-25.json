@@ -1,0 +1,36 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T22:56:40+00:00",
+  "signal_date": "2026-06-25",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "CLSK",
+      "strategy": "ORDER_BLOCK",
+      "entry_price": 17.83,
+      "current_stop": 13.6155,
+      "original_stop": 13.6155,
+      "take_profit": 31.4558,
+      "current_price": 15.87,
+      "bars_in_trade": 20,
+      "unrealized_pct": -10.9927,
+      "trade_id": "BRE_CLSK_ORDER_BLOCK_9d0f6b",
+      "entry_date": "2026-05-28"
+    },
+    {
+      "ticker": "OUST",
+      "strategy": "ORDER_BLOCK",
+      "entry_price": 43.58,
+      "current_stop": 26.2697,
+      "original_stop": 26.2697,
+      "take_profit": 95.5743,
+      "current_price": 41.82,
+      "bars_in_trade": 21,
+      "unrealized_pct": -4.0386,
+      "trade_id": "BRE_OUST_ORDER_BLOCK_d596cc",
+      "entry_date": "2026-05-27"
+    }
+  ]
+}
