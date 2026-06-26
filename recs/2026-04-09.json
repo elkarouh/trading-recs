@@ -1,0 +1,88 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T06:56:23+00:00",
+  "signal_date": "2026-04-09",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ACHR",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 5.32,
+      "current_stop": 4.9632,
+      "original_stop": 4.9632,
+      "take_profit": 5.9455,
+      "current_price": 5.32,
+      "bars_in_trade": 6,
+      "unrealized_pct": 0.0,
+      "trade_id": "BRE_ACHR_VWAP_WASHOUT_74a0d7",
+      "entry_date": "2026-04-01"
+    },
+    {
+      "ticker": "ELF",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 65.65,
+      "current_stop": 58.6944,
+      "original_stop": 58.6944,
+      "take_profit": 70.311,
+      "current_price": 63.93,
+      "bars_in_trade": 2,
+      "unrealized_pct": -2.62,
+      "trade_id": "BRE_ELF_VWAP_WASHOUT_9aa13c",
+      "entry_date": "2026-04-08"
+    },
+    {
+      "ticker": "FLNC",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 13.06,
+      "current_stop": 12.5952,
+      "original_stop": 12.5952,
+      "take_profit": 15.088,
+      "current_price": 13.56,
+      "bars_in_trade": 1,
+      "unrealized_pct": 3.8285,
+      "trade_id": "BRE_FLNC_VWAP_WASHOUT_48111e",
+      "entry_date": "2026-04-09"
+    },
+    {
+      "ticker": "MDB",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 234.83,
+      "current_stop": 226.0896,
+      "original_stop": 226.0896,
+      "take_profit": 270.8365,
+      "current_price": 229.49,
+      "bars_in_trade": 8,
+      "unrealized_pct": -2.274,
+      "trade_id": "BRE_MDB_VWAP_WASHOUT_989ba0",
+      "entry_date": "2026-03-30"
+    },
+    {
+      "ticker": "SMR",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 9.82,
+      "current_stop": 8.7936,
+      "original_stop": 8.7936,
+      "take_profit": 10.534,
+      "current_price": 9.3,
+      "bars_in_trade": 2,
+      "unrealized_pct": -5.2953,
+      "trade_id": "BRE_SMR_VWAP_WASHOUT_cddb9e",
+      "entry_date": "2026-04-08"
+    },
+    {
+      "ticker": "STEM",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 9.54,
+      "current_stop": 8.4576,
+      "original_stop": 8.4576,
+      "take_profit": 10.1315,
+      "current_price": 9.73,
+      "bars_in_trade": 2,
+      "unrealized_pct": 1.9916,
+      "trade_id": "BRE_STEM_VWAP_WASHOUT_4862d5",
+      "entry_date": "2026-04-08"
+    }
+  ]
+}

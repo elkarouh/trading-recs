@@ -1,0 +1,35 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T07:18:15+00:00",
+  "signal_date": "2026-01-30",
+  "buy": [],
+  "sell": [
+    {
+      "ticker": "BE",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 164.0,
+      "exit_price": 168.0,
+      "pnl_pct": 2.439,
+      "bars_in_trade": 5,
+      "trade_id": "BRE_BE_GAP_FILL_d50e02",
+      "entry_date": "2026-01-29"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "AG",
+      "strategy": "GAP_FILL",
+      "entry_price": 22.83,
+      "current_stop": 19.2078,
+      "original_stop": 19.2078,
+      "take_profit": 27.3069,
+      "current_price": 22.43,
+      "bars_in_trade": 1,
+      "unrealized_pct": -1.7521,
+      "trade_id": "BRE_AG_GAP_FILL_63062e",
+      "entry_date": "2026-02-04"
+    }
+  ]
+}

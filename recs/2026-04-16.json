@@ -1,0 +1,38 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T07:02:35+00:00",
+  "signal_date": "2026-04-16",
+  "buy": [
+    {
+      "ticker": "AFRM",
+      "strategy": "GAP_FILL",
+      "entry_price": 60.2175,
+      "stop_loss": 55.5,
+      "take_profit": 69.6526,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "INTC",
+      "strategy": "GAP_FILL",
+      "entry_price": 66.5775,
+      "stop_loss": 61.7967,
+      "take_profit": 76.139,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "ELF",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "TAKE_PROFIT",
+      "entry_price": 65.65,
+      "exit_price": 70.311,
+      "pnl_pct": 7.0998,
+      "bars_in_trade": 7,
+      "trade_id": "BRE_ELF_VWAP_WASHOUT_08f29a",
+      "entry_date": "2026-04-08"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T07:23:52+00:00",
+  "signal_date": "2025-08-12",
+  "buy": [
+    {
+      "ticker": "LYSDY",
+      "strategy": "GAP_FILL",
+      "entry_price": 8.6775,
+      "stop_loss": 8.2282,
+      "take_profit": 9.5761,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "PLTR",
+      "strategy": "GAP_FILL",
+      "entry_price": 185.9425,
+      "stop_loss": 176.2577,
+      "take_profit": 205.312,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "ALAB",
+      "strategy": "GAP_FILL",
+      "entry_price": 186.8238,
+      "stop_loss": 169.4924,
+      "take_profit": 221.4864,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "BE",
+      "strategy": "GAP_FILL",
+      "entry_price": 39.9163,
+      "stop_loss": 36.2693,
+      "take_profit": 47.2101,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "NBIS",
+      "strategy": "GAP_FILL",
+      "entry_price": 74.1685,
+      "stop_loss": 67.1865,
+      "take_profit": 88.1325,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "APLD",
+      "strategy": "GAP_FILL",
+      "entry_price": 14.98,
+      "current_stop": 13.0318,
+      "original_stop": 13.0318,
+      "take_profit": 18.1227,
+      "current_price": 14.97,
+      "bars_in_trade": 4,
+      "unrealized_pct": -0.0668,
+      "trade_id": "BRE_APLD_GAP_FILL_2586b4",
+      "entry_date": "2025-08-07"
+    },
+    {
+      "ticker": "AU",
+      "strategy": "GAP_FILL",
+      "entry_price": 58.72,
+      "current_stop": 54.1678,
+      "original_stop": 54.1678,
+      "take_profit": 63.7894,
+      "current_price": 57.25,
+      "bars_in_trade": 4,
+      "unrealized_pct": -2.5034,
+      "trade_id": "BRE_AU_GAP_FILL_a2b8d4",
+      "entry_date": "2025-08-07"
+    },
+    {
+      "ticker": "BE",
+      "strategy": "GAP_FILL",
+      "entry_price": 38.01,
+      "current_stop": 33.9463,
+      "original_stop": 33.9463,
+      "take_profit": 44.3449,
+      "current_price": 41.25,
+      "bars_in_trade": 5,
+      "unrealized_pct": 8.5241,
+      "trade_id": "BRE_BE_GAP_FILL_9ec95e",
+      "entry_date": "2025-08-06"
+    }
+  ]
+}
