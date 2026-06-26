@@ -1,0 +1,45 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T10:10:29+00:00",
+  "signal_date": "2025-12-10",
+  "buy": [
+    {
+      "ticker": "PAAS",
+      "strategy": "GAP_FILL",
+      "entry_price": 48.2475,
+      "stop_loss": 45.1097,
+      "take_profit": 54.5231,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "HL",
+      "strategy": "GAP_FILL",
+      "entry_price": 17.65,
+      "current_stop": 15.6631,
+      "original_stop": 15.6631,
+      "take_profit": 20.1913,
+      "current_price": 17.19,
+      "bars_in_trade": 6,
+      "unrealized_pct": -2.6062,
+      "trade_id": "BRE_HL_GAP_FILL_adf032",
+      "entry_date": "2025-12-03"
+    },
+    {
+      "ticker": "PINS",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 25.01,
+      "current_stop": 23.9616,
+      "original_stop": 23.9616,
+      "take_profit": 28.704,
+      "current_price": 27.79,
+      "bars_in_trade": 12,
+      "unrealized_pct": 11.1156,
+      "trade_id": "BRE_PINS_VWAP_WASHOUT_165ec0",
+      "entry_date": "2025-11-24"
+    }
+  ]
+}

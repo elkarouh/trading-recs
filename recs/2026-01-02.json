@@ -1,32 +1,9 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T06:53:37+00:00",
-  "signal_date": "2026-01-02",
-  "buy": [
-    {
-      "ticker": "RKLB",
-      "strategy": "GAP_FILL",
-      "entry_price": 83.9975,
-      "stop_loss": 75.2289,
-      "take_profit": 101.5348,
-      "confidence": 0.95
-    }
-  ],
+  "generated_at": "2026-06-26T09:10:56+00:00",
+  "signal_date": "2025-12-26",
+  "buy": [],
   "sell": [],
   "adjust_stop": [],
-  "hold": [
-    {
-      "ticker": "ONDS",
-      "strategy": "GAP_FILL",
-      "entry_price": 12.7,
-      "current_stop": 10.9064,
-      "original_stop": 10.9064,
-      "take_profit": 15.5598,
-      "current_price": 12.18,
-      "bars_in_trade": 1,
-      "unrealized_pct": -4.0945,
-      "trade_id": "BRE_ONDS_GAP_FILL_94ee6d",
-      "entry_date": "2026-01-07"
-    }
-  ]
+  "hold": []
 }

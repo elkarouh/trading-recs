@@ -1,19 +1,19 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:24:18+00:00",
-  "signal_date": "2026-02-06",
+  "generated_at": "2026-06-26T09:38:47+00:00",
+  "signal_date": "2026-01-30",
   "buy": [],
   "sell": [
     {
-      "ticker": "SOUN",
-      "strategy": "VWAP_WASHOUT",
-      "exit_reason": "STOP_LOSS",
-      "entry_price": 8.41,
-      "exit_price": 8.2176,
-      "pnl_pct": -2.2877,
-      "bars_in_trade": 3,
-      "trade_id": "BRE_SOUN_VWAP_WASHOUT_fa9480",
-      "entry_date": "2026-02-09"
+      "ticker": "BE",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 164.0,
+      "exit_price": 168.0,
+      "pnl_pct": 2.439,
+      "bars_in_trade": 5,
+      "trade_id": "BRE_BE_GAP_FILL_649467",
+      "entry_date": "2026-01-29"
     }
   ],
   "adjust_stop": [],
@@ -25,10 +25,10 @@
       "current_stop": 19.2078,
       "original_stop": 19.2078,
       "take_profit": 27.3069,
-      "current_price": 23.81,
-      "bars_in_trade": 6,
-      "unrealized_pct": 4.2926,
-      "trade_id": "BRE_AG_GAP_FILL_9d1561",
+      "current_price": 22.43,
+      "bars_in_trade": 1,
+      "unrealized_pct": -1.7521,
+      "trade_id": "BRE_AG_GAP_FILL_0ae6aa",
       "entry_date": "2026-02-04"
     }
   ]

@@ -1,0 +1,49 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:49:07+00:00",
+  "signal_date": "2026-05-21",
+  "buy": [
+    {
+      "ticker": "ALAB",
+      "strategy": "GAP_FILL",
+      "entry_price": 290.8018,
+      "stop_loss": 259.8059,
+      "take_profit": 352.7935,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "RDW",
+      "strategy": "GAP_FILL",
+      "entry_price": 14.6945,
+      "stop_loss": 12.5589,
+      "take_profit": 18.9657,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "TWLO",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 196.5,
+      "exit_price": 185.3363,
+      "pnl_pct": -5.6813,
+      "bars_in_trade": 12,
+      "trade_id": "BRE_TWLO_GAP_FILL_b37e40",
+      "entry_date": "2026-05-06"
+    },
+    {
+      "ticker": "TWLO",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 197.79,
+      "exit_price": 182.3482,
+      "pnl_pct": -7.8072,
+      "bars_in_trade": 5,
+      "trade_id": "BRE_TWLO_GAP_FILL_f5fdd5",
+      "entry_date": "2026-05-15"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": []
+}

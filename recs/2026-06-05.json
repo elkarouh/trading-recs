@@ -1,67 +1,101 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-25T15:03:46+00:00",
-  "signal_date": "2026-06-05",
-  "buy": [],
-  "sell": [
+  "generated_at": "2026-06-26T09:59:07+00:00",
+  "signal_date": "2026-06-04",
+  "buy": [
     {
-      "ticker": "ARM",
+      "ticker": "RIVN",
       "strategy": "GAP_FILL",
-      "exit_reason": "STOP_LOSS",
-      "entry_price": 407.535,
-      "exit_price": 365.7988,
-      "pnl_pct": -10.2411,
-      "bars_in_trade": 3,
-      "trade_id": "BRE_ARM_GAP_FILL_d2136e",
-      "entry_date": "2026-06-03"
+      "entry_price": 18.0975,
+      "stop_loss": 16.8404,
+      "take_profit": 20.6118,
+      "confidence": 0.95
     },
     {
       "ticker": "CLF",
       "strategy": "GAP_FILL",
-      "exit_reason": "FILL_EXPIRED",
       "entry_price": 14.1625,
-      "exit_price": 14.1625,
-      "pnl_pct": 0.0,
-      "bars_in_trade": 0,
-      "trade_id": "BRE_CLF_GAP_FILL_2d4a8f",
-      "entry_date": ""
+      "stop_loss": 13.0478,
+      "take_profit": 16.3918,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "AMD",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 508.0,
+      "exit_price": 514.75,
+      "pnl_pct": 1.3287,
+      "bars_in_trade": 7,
+      "trade_id": "BRE_AMD_GAP_FILL_e090dd",
+      "entry_date": "2026-05-27"
+    },
+    {
+      "ticker": "FSLR",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 305.44,
+      "exit_price": 309.0,
+      "pnl_pct": 1.1655,
+      "bars_in_trade": 2,
+      "trade_id": "BRE_FSLR_GAP_FILL_9c51e5",
+      "entry_date": "2026-06-03"
+    },
+    {
+      "ticker": "SMCI",
+      "strategy": "GAP_FILL",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 49.47,
+      "exit_price": 45.24,
+      "pnl_pct": -8.5506,
+      "bars_in_trade": 2,
+      "trade_id": "BRE_SMCI_GAP_FILL_f78a4b",
+      "entry_date": "2026-06-03"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ARM",
+      "strategy": "GAP_FILL",
+      "entry_price": 407.535,
+      "current_stop": 365.7988,
+      "original_stop": 365.7988,
+      "take_profit": 483.2021,
+      "current_price": 393.44,
+      "bars_in_trade": 2,
+      "unrealized_pct": -3.4586,
+      "trade_id": "BRE_ARM_GAP_FILL_08cb66",
+      "entry_date": "2026-06-03"
     },
     {
       "ticker": "CSCO",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
       "entry_price": 126.16,
-      "exit_price": 127.844,
-      "pnl_pct": 1.3348,
-      "bars_in_trade": 3,
-      "trade_id": "BRE_CSCO_GAP_FILL_2002ba",
+      "current_stop": 119.5042,
+      "original_stop": 119.5042,
+      "take_profit": 136.8915,
+      "current_price": 130.0,
+      "bars_in_trade": 2,
+      "unrealized_pct": 3.0438,
+      "trade_id": "BRE_CSCO_GAP_FILL_08a177",
       "entry_date": "2026-06-03"
     },
     {
       "ticker": "IONQ",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
       "entry_price": 69.64,
-      "exit_price": 61.5014,
-      "pnl_pct": -11.6866,
-      "bars_in_trade": 6,
-      "trade_id": "BRE_IONQ_GAP_FILL_8ed237",
+      "current_stop": 60.0431,
+      "original_stop": 60.0431,
+      "take_profit": 83.3138,
+      "current_price": 65.66,
+      "bars_in_trade": 5,
+      "unrealized_pct": -5.7151,
+      "trade_id": "BRE_IONQ_GAP_FILL_e9139a",
       "entry_date": "2026-05-29"
     },
-    {
-      "ticker": "RIVN",
-      "strategy": "GAP_FILL",
-      "exit_reason": "FILL_EXPIRED",
-      "entry_price": 18.0975,
-      "exit_price": 18.0975,
-      "pnl_pct": 0.0,
-      "bars_in_trade": 0,
-      "trade_id": "BRE_RIVN_GAP_FILL_80ef14",
-      "entry_date": ""
-    }
-  ],
-  "adjust_stop": [],
-  "hold": [
     {
       "ticker": "MGM",
       "strategy": "GAP_FILL",
@@ -69,10 +103,10 @@
       "current_stop": 45.2539,
       "original_stop": 45.2539,
       "take_profit": 54.1221,
-      "current_price": 47.51,
-      "bars_in_trade": 2,
-      "unrealized_pct": -2.4836,
-      "trade_id": "BRE_MGM_GAP_FILL_d67923",
+      "current_price": 47.94,
+      "bars_in_trade": 1,
+      "unrealized_pct": -1.601,
+      "trade_id": "BRE_MGM_GAP_FILL_65f43f",
       "entry_date": "2026-06-04"
     }
   ]

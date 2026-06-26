@@ -1,0 +1,120 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:55:56+00:00",
+  "signal_date": "2026-05-28",
+  "buy": [
+    {
+      "ticker": "HUT",
+      "strategy": "GAP_FILL",
+      "entry_price": 121.04,
+      "stop_loss": 108.0088,
+      "take_profit": 147.1025,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "IONQ",
+      "strategy": "GAP_FILL",
+      "entry_price": 67.8,
+      "stop_loss": 60.0431,
+      "take_profit": 83.3138,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "ASTS",
+      "strategy": "GAP_FILL",
+      "entry_price": 128.9537,
+      "stop_loss": 114.4848,
+      "take_profit": 157.8916,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "UMC",
+      "strategy": "GAP_FILL",
+      "entry_price": 22.505,
+      "stop_loss": 20.9342,
+      "take_profit": 25.6467,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "CSCO",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 117.94,
+      "exit_price": 118.92,
+      "pnl_pct": 0.8309,
+      "bars_in_trade": 2,
+      "trade_id": "BRE_CSCO_GAP_FILL_c824af",
+      "entry_date": "2026-05-27"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "AMD",
+      "strategy": "GAP_FILL",
+      "entry_price": 508.0,
+      "current_stop": 454.5692,
+      "original_stop": 454.5692,
+      "take_profit": 572.7267,
+      "current_price": 518.09,
+      "bars_in_trade": 2,
+      "unrealized_pct": 1.9862,
+      "trade_id": "BRE_AMD_GAP_FILL_3919af",
+      "entry_date": "2026-05-27"
+    },
+    {
+      "ticker": "ARM",
+      "strategy": "GAP_FILL",
+      "entry_price": 320.535,
+      "current_stop": 286.154,
+      "original_stop": 286.154,
+      "take_profit": 374.1395,
+      "current_price": 335.27,
+      "bars_in_trade": 2,
+      "unrealized_pct": 4.597,
+      "trade_id": "BRE_ARM_GAP_FILL_6a6f54",
+      "entry_date": "2026-05-27"
+    },
+    {
+      "ticker": "OUST",
+      "strategy": "GAP_FILL",
+      "entry_price": 43.34,
+      "current_stop": 38.1026,
+      "original_stop": 38.1026,
+      "take_profit": 55.0223,
+      "current_price": 42.33,
+      "bars_in_trade": 1,
+      "unrealized_pct": -2.3304,
+      "trade_id": "BRE_OUST_GAP_FILL_26bec9",
+      "entry_date": "2026-05-28"
+    },
+    {
+      "ticker": "PANW",
+      "strategy": "GAP_FILL",
+      "entry_price": 245.62,
+      "current_stop": 241.0925,
+      "original_stop": 241.0925,
+      "take_profit": 286.9624,
+      "current_price": 257.77,
+      "bars_in_trade": 2,
+      "unrealized_pct": 4.9467,
+      "trade_id": "BRE_PANW_GAP_FILL_1f5132",
+      "entry_date": "2026-05-27"
+    },
+    {
+      "ticker": "RKLB",
+      "strategy": "GAP_FILL",
+      "entry_price": 149.72,
+      "current_stop": 127.1612,
+      "original_stop": 127.1612,
+      "take_profit": 172.9712,
+      "current_price": 148.03,
+      "bars_in_trade": 2,
+      "unrealized_pct": -1.1288,
+      "trade_id": "BRE_RKLB_GAP_FILL_2f0a66",
+      "entry_date": "2026-05-27"
+    }
+  ]
+}

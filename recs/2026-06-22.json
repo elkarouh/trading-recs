@@ -1,21 +1,23 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-23T22:53:09+00:00",
-  "signal_date": "2026-06-22",
+  "generated_at": "2026-06-26T10:10:45+00:00",
+  "signal_date": "2026-06-18",
   "buy": [],
-  "sell": [
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
     {
       "ticker": "MGM",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
       "entry_price": 48.72,
-      "exit_price": 46.3031,
-      "pnl_pct": -4.9608,
-      "bars_in_trade": 12,
-      "trade_id": "BRE_MGM_GAP_FILL_c815e9",
+      "current_stop": 45.2539,
+      "original_stop": 45.2539,
+      "take_profit": 54.1221,
+      "current_price": 46.84,
+      "bars_in_trade": 11,
+      "unrealized_pct": -3.8588,
+      "trade_id": "BRE_MGM_GAP_FILL_15bfcb",
       "entry_date": "2026-06-04"
     }
-  ],
-  "adjust_stop": [],
-  "hold": []
+  ]
 }

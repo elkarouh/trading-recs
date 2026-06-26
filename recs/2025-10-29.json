@@ -1,21 +1,23 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:06:21+00:00",
-  "signal_date": "2025-10-29",
+  "generated_at": "2026-06-26T09:32:48+00:00",
+  "signal_date": "2025-10-22",
   "buy": [],
-  "sell": [
-    {
-      "ticker": "AXTI",
-      "strategy": "GAP_FILL",
-      "exit_reason": "FILL_EXPIRED",
-      "entry_price": 6.4,
-      "exit_price": 6.4,
-      "pnl_pct": 0.0,
-      "bars_in_trade": 0,
-      "trade_id": "BRE_AXTI_GAP_FILL_7dd603",
-      "entry_date": ""
-    }
-  ],
+  "sell": [],
   "adjust_stop": [],
-  "hold": []
+  "hold": [
+    {
+      "ticker": "UPST",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 47.42,
+      "current_stop": 44.64,
+      "original_stop": 44.64,
+      "take_profit": 53.475,
+      "current_price": 50.38,
+      "bars_in_trade": 3,
+      "unrealized_pct": 6.2421,
+      "trade_id": "BRE_UPST_VWAP_WASHOUT_658d9c",
+      "entry_date": "2025-10-20"
+    }
+  ]
 }

@@ -1,0 +1,36 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T10:11:34+00:00",
+  "signal_date": "2025-08-26",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "HL",
+      "strategy": "GAP_FILL",
+      "entry_price": 7.67,
+      "current_stop": 7.2371,
+      "original_stop": 7.2371,
+      "take_profit": 8.6557,
+      "current_price": 8.0,
+      "bars_in_trade": 8,
+      "unrealized_pct": 4.3025,
+      "trade_id": "BRE_HL_GAP_FILL_4f6aac",
+      "entry_date": "2025-08-15"
+    },
+    {
+      "ticker": "RUN",
+      "strategy": "GAP_FILL",
+      "entry_price": 15.53,
+      "current_stop": 13.475,
+      "original_stop": 13.475,
+      "take_profit": 19.2958,
+      "current_price": 16.61,
+      "bars_in_trade": 5,
+      "unrealized_pct": 6.9543,
+      "trade_id": "BRE_RUN_GAP_FILL_649054",
+      "entry_date": "2025-08-20"
+    }
+  ]
+}

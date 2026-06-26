@@ -1,0 +1,35 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:46:05+00:00",
+  "signal_date": "2026-02-13",
+  "buy": [],
+  "sell": [
+    {
+      "ticker": "SOUN",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 8.41,
+      "exit_price": 8.2176,
+      "pnl_pct": -2.2877,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_SOUN_VWAP_WASHOUT_3145e0",
+      "entry_date": "2026-02-09"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "AG",
+      "strategy": "GAP_FILL",
+      "entry_price": 22.83,
+      "current_stop": 19.2078,
+      "original_stop": 19.2078,
+      "take_profit": 27.3069,
+      "current_price": 23.81,
+      "bars_in_trade": 6,
+      "unrealized_pct": 4.2926,
+      "trade_id": "BRE_AG_GAP_FILL_ef1195",
+      "entry_date": "2026-02-04"
+    }
+  ]
+}

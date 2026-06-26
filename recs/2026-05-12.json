@@ -1,0 +1,128 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:39:08+00:00",
+  "signal_date": "2026-05-07",
+  "buy": [
+    {
+      "ticker": "AMD",
+      "strategy": "GAP_FILL",
+      "entry_price": 412.08,
+      "stop_loss": 381.1067,
+      "take_profit": 474.0266,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "UMC",
+      "strategy": "GAP_FILL",
+      "entry_price": 15.2175,
+      "stop_loss": 14.2376,
+      "take_profit": 17.1773,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "NBIS",
+      "strategy": "GAP_FILL",
+      "exit_reason": "FILL_EXPIRED",
+      "entry_price": 186.4463,
+      "exit_price": 186.4463,
+      "pnl_pct": 0.0,
+      "bars_in_trade": 0,
+      "trade_id": "BRE_NBIS_GAP_FILL_1f8b20",
+      "entry_date": ""
+    },
+    {
+      "ticker": "TXN",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 279.05,
+      "exit_price": 284.486,
+      "pnl_pct": 1.948,
+      "bars_in_trade": 2,
+      "trade_id": "BRE_TXN_GAP_FILL_9890d4",
+      "entry_date": "2026-05-06"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ARM",
+      "strategy": "GAP_FILL",
+      "entry_price": 232.0,
+      "current_stop": 189.936,
+      "original_stop": 189.936,
+      "take_profit": 248.3655,
+      "current_price": 213.31,
+      "bars_in_trade": 2,
+      "unrealized_pct": -8.056,
+      "trade_id": "BRE_ARM_GAP_FILL_159da5",
+      "entry_date": "2026-05-06"
+    },
+    {
+      "ticker": "AXTI",
+      "strategy": "GAP_FILL",
+      "entry_price": 99.51,
+      "current_stop": 88.1484,
+      "original_stop": 88.1484,
+      "take_profit": 137.7132,
+      "current_price": 108.42,
+      "bars_in_trade": 1,
+      "unrealized_pct": 8.9539,
+      "trade_id": "BRE_AXTI_GAP_FILL_bfbba6",
+      "entry_date": "2026-05-07"
+    },
+    {
+      "ticker": "INTC",
+      "strategy": "GAP_FILL",
+      "entry_price": 111.02,
+      "current_stop": 102.5113,
+      "original_stop": 102.5113,
+      "take_profit": 128.0298,
+      "current_price": 109.62,
+      "bars_in_trade": 1,
+      "unrealized_pct": -1.261,
+      "trade_id": "BRE_INTC_GAP_FILL_263562",
+      "entry_date": "2026-05-07"
+    },
+    {
+      "ticker": "NVTS",
+      "strategy": "GAP_FILL",
+      "entry_price": 16.96,
+      "current_stop": 14.2798,
+      "original_stop": 14.2798,
+      "take_profit": 22.133,
+      "current_price": 15.79,
+      "bars_in_trade": 2,
+      "unrealized_pct": -6.8986,
+      "trade_id": "BRE_NVTS_GAP_FILL_5d5d3f",
+      "entry_date": "2026-05-06"
+    },
+    {
+      "ticker": "QBTS",
+      "strategy": "GAP_FILL",
+      "entry_price": 23.05,
+      "current_stop": 20.5184,
+      "original_stop": 20.5184,
+      "take_profit": 27.5806,
+      "current_price": 21.99,
+      "bars_in_trade": 1,
+      "unrealized_pct": -4.5987,
+      "trade_id": "BRE_QBTS_GAP_FILL_d9fe51",
+      "entry_date": "2026-05-07"
+    },
+    {
+      "ticker": "TWLO",
+      "strategy": "GAP_FILL",
+      "entry_price": 196.5,
+      "current_stop": 180.4685,
+      "original_stop": 180.4685,
+      "take_profit": 218.9705,
+      "current_price": 197.07,
+      "bars_in_trade": 2,
+      "unrealized_pct": 0.2901,
+      "trade_id": "BRE_TWLO_GAP_FILL_b30b87",
+      "entry_date": "2026-05-06"
+    }
+  ]
+}

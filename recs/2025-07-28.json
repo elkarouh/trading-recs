@@ -1,0 +1,49 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:37:53+00:00",
+  "signal_date": "2025-07-22",
+  "buy": [
+    {
+      "ticker": "FLNC",
+      "strategy": "GAP_FILL",
+      "entry_price": 9.8963,
+      "stop_loss": 9.0201,
+      "take_profit": 11.6486,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "CRSP",
+      "strategy": "GAP_FILL",
+      "entry_price": 64.629,
+      "stop_loss": 58.9051,
+      "take_profit": 76.0768,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "ASTS",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 56.065,
+      "exit_price": 55.68,
+      "pnl_pct": -0.6867,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_ASTS_GAP_FILL_893848",
+      "entry_date": "2025-07-18"
+    },
+    {
+      "ticker": "SYM",
+      "strategy": "GAP_FILL",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 53.45,
+      "exit_price": 48.8486,
+      "pnl_pct": -8.6088,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_SYM_GAP_FILL_e0a45f",
+      "entry_date": "2025-07-18"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": []
+}

@@ -1,23 +1,84 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T06:56:52+00:00",
-  "signal_date": "2025-10-15",
-  "buy": [],
+  "generated_at": "2026-06-26T09:21:16+00:00",
+  "signal_date": "2025-10-08",
+  "buy": [
+    {
+      "ticker": "LYSDY",
+      "strategy": "GAP_FILL",
+      "entry_price": 13.01,
+      "stop_loss": 12.3265,
+      "take_profit": 14.3769,
+      "confidence": 0.95
+    }
+  ],
   "sell": [],
   "adjust_stop": [],
   "hold": [
     {
-      "ticker": "UPST",
-      "strategy": "VWAP_WASHOUT",
-      "entry_price": 49.57,
-      "current_stop": 46.6368,
-      "original_stop": 46.6368,
-      "take_profit": 55.867,
-      "current_price": 51.07,
-      "bars_in_trade": 3,
-      "unrealized_pct": 3.026,
-      "trade_id": "BRE_UPST_VWAP_WASHOUT_fce1f7",
-      "entry_date": "2025-10-13"
+      "ticker": "APLD",
+      "strategy": "GAP_FILL",
+      "entry_price": 27.72,
+      "current_stop": 24.9255,
+      "original_stop": 24.9255,
+      "take_profit": 33.6239,
+      "current_price": 27.94,
+      "bars_in_trade": 1,
+      "unrealized_pct": 0.7937,
+      "trade_id": "BRE_APLD_GAP_FILL_08d20d",
+      "entry_date": "2025-10-08"
+    },
+    {
+      "ticker": "INTC",
+      "strategy": "GAP_FILL",
+      "entry_price": 37.95,
+      "current_stop": 33.9636,
+      "original_stop": 33.9636,
+      "take_profit": 41.6253,
+      "current_price": 37.43,
+      "bars_in_trade": 4,
+      "unrealized_pct": -1.3702,
+      "trade_id": "BRE_INTC_GAP_FILL_24ea1c",
+      "entry_date": "2025-10-03"
+    },
+    {
+      "ticker": "ONDS",
+      "strategy": "GAP_FILL",
+      "entry_price": 11.265,
+      "current_stop": 9.6973,
+      "original_stop": 9.6973,
+      "take_profit": 13.6692,
+      "current_price": 11.26,
+      "bars_in_trade": 1,
+      "unrealized_pct": -0.0444,
+      "trade_id": "BRE_ONDS_GAP_FILL_773c86",
+      "entry_date": "2025-10-08"
+    },
+    {
+      "ticker": "PL",
+      "strategy": "GAP_FILL",
+      "entry_price": 16.55,
+      "current_stop": 14.1628,
+      "original_stop": 14.1628,
+      "take_profit": 17.7769,
+      "current_price": 15.6,
+      "bars_in_trade": 1,
+      "unrealized_pct": -5.7402,
+      "trade_id": "BRE_PL_GAP_FILL_a4fcdc",
+      "entry_date": "2025-10-08"
+    },
+    {
+      "ticker": "SYM",
+      "strategy": "GAP_FILL",
+      "entry_price": 66.2,
+      "current_stop": 62.387,
+      "original_stop": 62.387,
+      "take_profit": 80.1411,
+      "current_price": 68.83,
+      "bars_in_trade": 1,
+      "unrealized_pct": 3.9728,
+      "trade_id": "BRE_SYM_GAP_FILL_2a1d04",
+      "entry_date": "2025-10-08"
     }
   ]
 }

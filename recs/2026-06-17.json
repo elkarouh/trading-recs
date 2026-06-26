@@ -1,0 +1,23 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T10:06:51+00:00",
+  "signal_date": "2026-06-11",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "MGM",
+      "strategy": "GAP_FILL",
+      "entry_price": 48.72,
+      "current_stop": 45.2539,
+      "original_stop": 45.2539,
+      "take_profit": 54.1221,
+      "current_price": 47.22,
+      "bars_in_trade": 6,
+      "unrealized_pct": -3.0788,
+      "trade_id": "BRE_MGM_GAP_FILL_ca25aa",
+      "entry_date": "2026-06-04"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T10:24:29+00:00",
+  "signal_date": "2025-09-09",
+  "buy": [
+    {
+      "ticker": "LYFT",
+      "strategy": "GAP_FILL",
+      "entry_price": 18.05,
+      "stop_loss": 16.8726,
+      "take_profit": 20.4049,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "OSCR",
+      "strategy": "GAP_FILL",
+      "entry_price": 20.1925,
+      "stop_loss": 18.5738,
+      "take_profit": 23.43,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ARWR",
+      "strategy": "GAP_FILL",
+      "entry_price": 28.24,
+      "current_stop": 26.0809,
+      "original_stop": 26.0809,
+      "take_profit": 32.3031,
+      "current_price": 27.73,
+      "bars_in_trade": 3,
+      "unrealized_pct": -1.8059,
+      "trade_id": "BRE_ARWR_GAP_FILL_f19cdd",
+      "entry_date": "2025-09-05"
+    },
+    {
+      "ticker": "MDB",
+      "strategy": "GAP_FILL",
+      "entry_price": 319.97,
+      "current_stop": 291.4048,
+      "original_stop": 291.4048,
+      "take_profit": 362.4716,
+      "current_price": 331.09,
+      "bars_in_trade": 5,
+      "unrealized_pct": 3.4753,
+      "trade_id": "BRE_MDB_GAP_FILL_cbee60",
+      "entry_date": "2025-09-03"
+    }
+  ]
+}

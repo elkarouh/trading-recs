@@ -1,19 +1,30 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:30:13+00:00",
-  "signal_date": "2025-12-03",
+  "generated_at": "2026-06-26T10:01:59+00:00",
+  "signal_date": "2025-11-26",
   "buy": [],
   "sell": [
     {
-      "ticker": "GENI",
+      "ticker": "STEM",
       "strategy": "VWAP_WASHOUT",
       "exit_reason": "TAKE_PROFIT",
-      "entry_price": 9.22,
-      "exit_price": 10.71,
-      "pnl_pct": 16.1605,
-      "bars_in_trade": 6,
-      "trade_id": "BRE_GENI_VWAP_WASHOUT_a2260d",
-      "entry_date": "2025-11-25"
+      "entry_price": 14.31,
+      "exit_price": 16.468,
+      "pnl_pct": 15.0804,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_STEM_VWAP_WASHOUT_c6b597",
+      "entry_date": "2025-11-24"
+    },
+    {
+      "ticker": "UPST",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "TAKE_PROFIT",
+      "entry_price": 37.46,
+      "exit_price": 42.6535,
+      "pnl_pct": 13.8641,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_UPST_VWAP_WASHOUT_17ff81",
+      "entry_date": "2025-11-24"
     }
   ],
   "adjust_stop": [],
@@ -25,10 +36,10 @@
       "current_stop": 7.1424,
       "original_stop": 7.1424,
       "take_profit": 8.556,
-      "current_price": 8.35,
-      "bars_in_trade": 6,
-      "unrealized_pct": 12.9905,
-      "trade_id": "BRE_ACHR_VWAP_WASHOUT_4437f6",
+      "current_price": 7.49,
+      "bars_in_trade": 2,
+      "unrealized_pct": 1.3532,
+      "trade_id": "BRE_ACHR_VWAP_WASHOUT_1e2bc9",
       "entry_date": "2025-11-25"
     },
     {
@@ -38,24 +49,11 @@
       "current_stop": 12.9792,
       "original_stop": 12.9792,
       "take_profit": 15.548,
-      "current_price": 15.01,
-      "bars_in_trade": 6,
-      "unrealized_pct": 11.0207,
-      "trade_id": "BRE_AI_VWAP_WASHOUT_a8d676",
+      "current_price": 14.16,
+      "bars_in_trade": 2,
+      "unrealized_pct": 4.7337,
+      "trade_id": "BRE_AI_VWAP_WASHOUT_9f3549",
       "entry_date": "2025-11-25"
-    },
-    {
-      "ticker": "ARWR",
-      "strategy": "GAP_FILL",
-      "entry_price": 58.63,
-      "current_stop": 51.7571,
-      "original_stop": 51.7571,
-      "take_profit": 68.1457,
-      "current_price": 65.075,
-      "bars_in_trade": 1,
-      "unrealized_pct": 10.9927,
-      "trade_id": "BRE_ARWR_GAP_FILL_0b90d2",
-      "entry_date": "2025-12-03"
     },
     {
       "ticker": "ELF",
@@ -64,10 +62,10 @@
       "current_stop": 68.4,
       "original_stop": 68.4,
       "take_profit": 81.9375,
-      "current_price": 80.37,
-      "bars_in_trade": 6,
-      "unrealized_pct": 12.9744,
-      "trade_id": "BRE_ELF_VWAP_WASHOUT_30204c",
+      "current_price": 75.23,
+      "bars_in_trade": 2,
+      "unrealized_pct": 5.7492,
+      "trade_id": "BRE_ELF_VWAP_WASHOUT_4e4334",
       "entry_date": "2025-11-25"
     },
     {
@@ -77,24 +75,24 @@
       "current_stop": 25.8528,
       "original_stop": 25.8528,
       "take_profit": 30.9695,
-      "current_price": 29.39,
-      "bars_in_trade": 7,
-      "unrealized_pct": 9.46,
-      "trade_id": "BRE_ENPH_VWAP_WASHOUT_6e1a3a",
+      "current_price": 27.82,
+      "bars_in_trade": 3,
+      "unrealized_pct": 3.6127,
+      "trade_id": "BRE_ENPH_VWAP_WASHOUT_3b5456",
       "entry_date": "2025-11-24"
     },
     {
-      "ticker": "HL",
-      "strategy": "GAP_FILL",
-      "entry_price": 17.65,
-      "current_stop": 15.6631,
-      "original_stop": 15.6631,
-      "take_profit": 20.1913,
-      "current_price": 17.36,
-      "bars_in_trade": 1,
-      "unrealized_pct": -1.6431,
-      "trade_id": "BRE_HL_GAP_FILL_489bd2",
-      "entry_date": "2025-12-03"
+      "ticker": "GENI",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 9.22,
+      "current_stop": 8.7744,
+      "original_stop": 8.7744,
+      "take_profit": 10.511,
+      "current_price": 9.86,
+      "bars_in_trade": 2,
+      "unrealized_pct": 6.9414,
+      "trade_id": "BRE_GENI_VWAP_WASHOUT_070eb5",
+      "entry_date": "2025-11-25"
     },
     {
       "ticker": "LCID",
@@ -103,10 +101,10 @@
       "current_stop": 11.808,
       "original_stop": 11.808,
       "take_profit": 14.145,
-      "current_price": 13.56,
-      "bars_in_trade": 7,
-      "unrealized_pct": 9.0909,
-      "trade_id": "BRE_LCID_VWAP_WASHOUT_4519f5",
+      "current_price": 13.38,
+      "bars_in_trade": 3,
+      "unrealized_pct": 7.6428,
+      "trade_id": "BRE_LCID_VWAP_WASHOUT_814f0e",
       "entry_date": "2025-11-24"
     },
     {
@@ -116,10 +114,10 @@
       "current_stop": 8.7744,
       "original_stop": 8.7744,
       "take_profit": 10.511,
-      "current_price": 9.61,
-      "bars_in_trade": 13,
-      "unrealized_pct": 5.7206,
-      "trade_id": "BRE_LYSDY_VWAP_WASHOUT_935d66",
+      "current_price": 9.99,
+      "bars_in_trade": 9,
+      "unrealized_pct": 9.901,
+      "trade_id": "BRE_LYSDY_VWAP_WASHOUT_4c7aaa",
       "entry_date": "2025-11-14"
     },
     {
@@ -129,10 +127,10 @@
       "current_stop": 7.8816,
       "original_stop": 7.8816,
       "take_profit": 9.4415,
-      "current_price": 9.06,
-      "bars_in_trade": 7,
-      "unrealized_pct": 9.6852,
-      "trade_id": "BRE_NTLA_VWAP_WASHOUT_6e6ae5",
+      "current_price": 8.52,
+      "bars_in_trade": 3,
+      "unrealized_pct": 3.1477,
+      "trade_id": "BRE_NTLA_VWAP_WASHOUT_bd2bb4",
       "entry_date": "2025-11-24"
     },
     {
@@ -142,10 +140,10 @@
       "current_stop": 23.9616,
       "original_stop": 23.9616,
       "take_profit": 28.704,
-      "current_price": 27.41,
-      "bars_in_trade": 7,
-      "unrealized_pct": 9.5962,
-      "trade_id": "BRE_PINS_VWAP_WASHOUT_45ec1b",
+      "current_price": 25.57,
+      "bars_in_trade": 3,
+      "unrealized_pct": 2.2391,
+      "trade_id": "BRE_PINS_VWAP_WASHOUT_890fe8",
       "entry_date": "2025-11-24"
     },
     {
@@ -155,10 +153,10 @@
       "current_stop": 5.088,
       "original_stop": 5.088,
       "take_profit": 6.095,
-      "current_price": 5.57,
-      "bars_in_trade": 7,
-      "unrealized_pct": 3.9179,
-      "trade_id": "BRE_RDW_VWAP_WASHOUT_b37e78",
+      "current_price": 5.37,
+      "bars_in_trade": 3,
+      "unrealized_pct": 0.1866,
+      "trade_id": "BRE_RDW_VWAP_WASHOUT_34a0dd",
       "entry_date": "2025-11-24"
     },
     {
@@ -168,10 +166,10 @@
       "current_stop": 13.4112,
       "original_stop": 13.4112,
       "take_profit": 16.0655,
-      "current_price": 15.1,
-      "bars_in_trade": 6,
-      "unrealized_pct": 8.6331,
-      "trade_id": "BRE_UUUU_VWAP_WASHOUT_4fe78c",
+      "current_price": 14.36,
+      "bars_in_trade": 2,
+      "unrealized_pct": 3.3094,
+      "trade_id": "BRE_UUUU_VWAP_WASHOUT_196ec0",
       "entry_date": "2025-11-25"
     }
   ]

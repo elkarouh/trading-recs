@@ -1,0 +1,23 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:07:05+00:00",
+  "signal_date": "2025-12-26",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "PINS",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 25.01,
+      "current_stop": 23.9616,
+      "original_stop": 23.9616,
+      "take_profit": 28.704,
+      "current_price": 26.13,
+      "bars_in_trade": 22,
+      "unrealized_pct": 4.4782,
+      "trade_id": "BRE_PINS_VWAP_WASHOUT_61bfda",
+      "entry_date": "2025-11-24"
+    }
+  ]
+}

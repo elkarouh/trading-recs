@@ -1,55 +1,49 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:12:29+00:00",
-  "signal_date": "2025-07-29",
+  "generated_at": "2026-06-26T09:38:53+00:00",
+  "signal_date": "2025-07-22",
   "buy": [
     {
-      "ticker": "BE",
+      "ticker": "FLNC",
       "strategy": "GAP_FILL",
-      "entry_price": 34.7,
-      "stop_loss": 31.9851,
-      "take_profit": 40.1297,
+      "entry_price": 9.8963,
+      "stop_loss": 9.0201,
+      "take_profit": 11.6486,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "CRSP",
+      "strategy": "GAP_FILL",
+      "entry_price": 64.629,
+      "stop_loss": 58.9051,
+      "take_profit": 76.0768,
       "confidence": 0.95
     }
   ],
   "sell": [
     {
-      "ticker": "CRSP",
+      "ticker": "ASTS",
       "strategy": "GAP_FILL",
       "exit_reason": "BREAKEVEN_STOP",
-      "entry_price": 67.91,
-      "exit_price": 60.8433,
-      "pnl_pct": -10.406,
-      "bars_in_trade": 5,
-      "trade_id": "BRE_CRSP_GAP_FILL_6670bb",
-      "entry_date": "2025-07-23"
+      "entry_price": 56.065,
+      "exit_price": 55.68,
+      "pnl_pct": -0.6867,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_ASTS_GAP_FILL_227c98",
+      "entry_date": "2025-07-18"
     },
     {
-      "ticker": "NVTS",
+      "ticker": "SYM",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
-      "entry_price": 8.875,
-      "exit_price": 8.45,
-      "pnl_pct": -4.7887,
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 53.45,
+      "exit_price": 48.8486,
+      "pnl_pct": -8.6088,
       "bars_in_trade": 3,
-      "trade_id": "BRE_NVTS_GAP_FILL_4cc982",
-      "entry_date": "2025-07-25"
+      "trade_id": "BRE_SYM_GAP_FILL_84d5d5",
+      "entry_date": "2025-07-18"
     }
   ],
   "adjust_stop": [],
-  "hold": [
-    {
-      "ticker": "CLF",
-      "strategy": "GAP_FILL",
-      "entry_price": 11.4,
-      "current_stop": 10.4047,
-      "original_stop": 10.4047,
-      "take_profit": 13.1655,
-      "current_price": 10.86,
-      "bars_in_trade": 4,
-      "unrealized_pct": -4.7368,
-      "trade_id": "BRE_CLF_GAP_FILL_21791a",
-      "entry_date": "2025-07-24"
-    }
-  ]
+  "hold": []
 }

@@ -1,0 +1,139 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T10:16:59+00:00",
+  "signal_date": "2026-03-20",
+  "buy": [],
+  "sell": [
+    {
+      "ticker": "FUBO",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 12.0,
+      "exit_price": 11.5392,
+      "pnl_pct": -3.84,
+      "bars_in_trade": 1,
+      "trade_id": "BRE_FUBO_VWAP_WASHOUT_46609e",
+      "entry_date": "2026-03-25"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ACMR",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 46.59,
+      "current_stop": 44.0832,
+      "original_stop": 44.0832,
+      "take_profit": 52.808,
+      "current_price": 45.64,
+      "bars_in_trade": 1,
+      "unrealized_pct": -2.0391,
+      "trade_id": "BRE_ACMR_VWAP_WASHOUT_3dfa1e",
+      "entry_date": "2026-03-25"
+    },
+    {
+      "ticker": "CLF",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 7.94,
+      "current_stop": 7.7088,
+      "original_stop": 7.7088,
+      "take_profit": 9.2345,
+      "current_price": 8.54,
+      "bars_in_trade": 2,
+      "unrealized_pct": 7.5567,
+      "trade_id": "BRE_CLF_VWAP_WASHOUT_b6f754",
+      "entry_date": "2026-03-24"
+    },
+    {
+      "ticker": "GTLB",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 21.2,
+      "current_stop": 19.8336,
+      "original_stop": 19.8336,
+      "take_profit": 23.759,
+      "current_price": 20.67,
+      "bars_in_trade": 1,
+      "unrealized_pct": -2.5,
+      "trade_id": "BRE_GTLB_VWAP_WASHOUT_16326e",
+      "entry_date": "2026-03-25"
+    },
+    {
+      "ticker": "NNE",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 20.71,
+      "current_stop": 20.1696,
+      "original_stop": 20.1696,
+      "take_profit": 24.1615,
+      "current_price": 21.94,
+      "bars_in_trade": 4,
+      "unrealized_pct": 5.9392,
+      "trade_id": "BRE_NNE_VWAP_WASHOUT_afae38",
+      "entry_date": "2026-03-20"
+    },
+    {
+      "ticker": "QUBT",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 6.975,
+      "current_stop": 6.6816,
+      "original_stop": 6.6816,
+      "take_profit": 8.004,
+      "current_price": 7.32,
+      "bars_in_trade": 3,
+      "unrealized_pct": 4.9462,
+      "trade_id": "BRE_QUBT_VWAP_WASHOUT_237a71",
+      "entry_date": "2026-03-23"
+    },
+    {
+      "ticker": "RUN",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 12.05,
+      "current_stop": 11.664,
+      "original_stop": 11.664,
+      "take_profit": 13.9725,
+      "current_price": 13.04,
+      "bars_in_trade": 11,
+      "unrealized_pct": 8.2158,
+      "trade_id": "BRE_RUN_VWAP_WASHOUT_843d47",
+      "entry_date": "2026-03-11"
+    },
+    {
+      "ticker": "RUN",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 12.245,
+      "current_stop": 11.7312,
+      "original_stop": 11.7312,
+      "take_profit": 14.053,
+      "current_price": 13.04,
+      "bars_in_trade": 3,
+      "unrealized_pct": 6.4924,
+      "trade_id": "BRE_RUN_VWAP_WASHOUT_122210",
+      "entry_date": "2026-03-23"
+    },
+    {
+      "ticker": "STEM",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 9.82,
+      "current_stop": 9.312,
+      "original_stop": 9.312,
+      "take_profit": 11.155,
+      "current_price": 10.47,
+      "bars_in_trade": 3,
+      "unrealized_pct": 6.6192,
+      "trade_id": "BRE_STEM_VWAP_WASHOUT_7995d3",
+      "entry_date": "2026-03-23"
+    },
+    {
+      "ticker": "UPST",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 26.4,
+      "current_stop": 24.7296,
+      "original_stop": 24.7296,
+      "take_profit": 29.624,
+      "current_price": 26.09,
+      "bars_in_trade": 9,
+      "unrealized_pct": -1.1742,
+      "trade_id": "BRE_UPST_VWAP_WASHOUT_8445d1",
+      "entry_date": "2026-03-13"
+    }
+  ]
+}

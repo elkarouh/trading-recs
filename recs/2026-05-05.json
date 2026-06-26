@@ -1,0 +1,23 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:33:44+00:00",
+  "signal_date": "2026-04-30",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "INTC",
+      "strategy": "GAP_FILL",
+      "entry_price": 86.14,
+      "current_stop": 76.3478,
+      "original_stop": 76.3478,
+      "take_profit": 95.6969,
+      "current_price": 94.48,
+      "bars_in_trade": 2,
+      "unrealized_pct": 9.6819,
+      "trade_id": "BRE_INTC_GAP_FILL_44776e",
+      "entry_date": "2026-04-29"
+    }
+  ]
+}

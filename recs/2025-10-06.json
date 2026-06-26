@@ -1,0 +1,84 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:13:53+00:00",
+  "signal_date": "2025-10-01",
+  "buy": [
+    {
+      "ticker": "TSLA",
+      "strategy": "GAP_FILL",
+      "entry_price": 451.575,
+      "stop_loss": 427.3507,
+      "take_profit": 500.0235,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "NTLA",
+      "strategy": "GAP_FILL",
+      "entry_price": 18.215,
+      "stop_loss": 16.4732,
+      "take_profit": 21.6985,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "ACMR",
+      "strategy": "GAP_FILL",
+      "entry_price": 41.3025,
+      "stop_loss": 38.3498,
+      "take_profit": 47.208,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "LYFT",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 22.36,
+      "exit_price": 21.98,
+      "pnl_pct": -1.6995,
+      "bars_in_trade": 9,
+      "trade_id": "BRE_LYFT_GAP_FILL_166b70",
+      "entry_date": "2025-09-19"
+    },
+    {
+      "ticker": "NBIS",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 109.93,
+      "exit_price": 111.715,
+      "pnl_pct": 1.6238,
+      "bars_in_trade": 4,
+      "trade_id": "BRE_NBIS_GAP_FILL_c852ac",
+      "entry_date": "2025-09-26"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ASML",
+      "strategy": "GAP_FILL",
+      "entry_price": 949.72,
+      "current_stop": 931.7079,
+      "original_stop": 931.7079,
+      "take_profit": 1032.6341,
+      "current_price": 1003.27,
+      "bars_in_trade": 6,
+      "unrealized_pct": 5.6385,
+      "trade_id": "BRE_ASML_GAP_FILL_33b4d2",
+      "entry_date": "2025-09-24"
+    },
+    {
+      "ticker": "PL",
+      "strategy": "GAP_FILL",
+      "entry_price": 12.84,
+      "current_stop": 11.6908,
+      "original_stop": 11.6908,
+      "take_profit": 14.7635,
+      "current_price": 13.77,
+      "bars_in_trade": 1,
+      "unrealized_pct": 7.243,
+      "trade_id": "BRE_PL_GAP_FILL_bdf559",
+      "entry_date": "2025-10-01"
+    }
+  ]
+}

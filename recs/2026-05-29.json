@@ -1,19 +1,52 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-25T14:58:04+00:00",
-  "signal_date": "2026-05-29",
-  "buy": [],
-  "sell": [
+  "generated_at": "2026-06-26T09:53:37+00:00",
+  "signal_date": "2026-05-28",
+  "buy": [
+    {
+      "ticker": "HUT",
+      "strategy": "GAP_FILL",
+      "entry_price": 121.04,
+      "stop_loss": 108.0088,
+      "take_profit": 147.1025,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "IONQ",
+      "strategy": "GAP_FILL",
+      "entry_price": 67.8,
+      "stop_loss": 60.0431,
+      "take_profit": 83.3138,
+      "confidence": 0.95
+    },
     {
       "ticker": "ASTS",
       "strategy": "GAP_FILL",
-      "exit_reason": "STOP_LOSS",
-      "entry_price": 113.46,
-      "exit_price": 107.787,
-      "pnl_pct": -5.0,
-      "bars_in_trade": 1,
-      "trade_id": "BRE_ASTS_GAP_FILL_e1ba36",
-      "entry_date": "2026-05-29"
+      "entry_price": 128.9537,
+      "stop_loss": 114.4848,
+      "take_profit": 157.8916,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "UMC",
+      "strategy": "GAP_FILL",
+      "entry_price": 22.505,
+      "stop_loss": 20.9342,
+      "take_profit": 25.6467,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "CSCO",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 117.94,
+      "exit_price": 118.92,
+      "pnl_pct": 0.8309,
+      "bars_in_trade": 2,
+      "trade_id": "BRE_CSCO_GAP_FILL_aa006c",
+      "entry_date": "2026-05-27"
     }
   ],
   "adjust_stop": [],
@@ -25,10 +58,10 @@
       "current_stop": 454.5692,
       "original_stop": 454.5692,
       "take_profit": 572.7267,
-      "current_price": 516.1,
-      "bars_in_trade": 3,
-      "unrealized_pct": 1.5945,
-      "trade_id": "BRE_AMD_GAP_FILL_dab228",
+      "current_price": 518.09,
+      "bars_in_trade": 2,
+      "unrealized_pct": 1.9862,
+      "trade_id": "BRE_AMD_GAP_FILL_fa1491",
       "entry_date": "2026-05-27"
     },
     {
@@ -38,37 +71,11 @@
       "current_stop": 286.154,
       "original_stop": 286.154,
       "take_profit": 374.1395,
-      "current_price": 353.29,
-      "bars_in_trade": 3,
-      "unrealized_pct": 10.2189,
-      "trade_id": "BRE_ARM_GAP_FILL_86dc55",
+      "current_price": 335.27,
+      "bars_in_trade": 2,
+      "unrealized_pct": 4.597,
+      "trade_id": "BRE_ARM_GAP_FILL_7b6015",
       "entry_date": "2026-05-27"
-    },
-    {
-      "ticker": "HUT",
-      "strategy": "GAP_FILL",
-      "entry_price": 123.5,
-      "current_stop": 108.0088,
-      "original_stop": 108.0088,
-      "take_profit": 147.1025,
-      "current_price": 124.83,
-      "bars_in_trade": 1,
-      "unrealized_pct": 1.0769,
-      "trade_id": "BRE_HUT_GAP_FILL_f08b8c",
-      "entry_date": "2026-05-29"
-    },
-    {
-      "ticker": "IONQ",
-      "strategy": "GAP_FILL",
-      "entry_price": 69.64,
-      "current_stop": 60.0431,
-      "original_stop": 60.0431,
-      "take_profit": 83.3138,
-      "current_price": 72.07,
-      "bars_in_trade": 1,
-      "unrealized_pct": 3.4894,
-      "trade_id": "BRE_IONQ_GAP_FILL_f26969",
-      "entry_date": "2026-05-29"
     },
     {
       "ticker": "OUST",
@@ -77,10 +84,10 @@
       "current_stop": 38.1026,
       "original_stop": 38.1026,
       "take_profit": 55.0223,
-      "current_price": 46.05,
-      "bars_in_trade": 2,
-      "unrealized_pct": 6.2529,
-      "trade_id": "BRE_OUST_GAP_FILL_415335",
+      "current_price": 42.33,
+      "bars_in_trade": 1,
+      "unrealized_pct": -2.3304,
+      "trade_id": "BRE_OUST_GAP_FILL_66b21c",
       "entry_date": "2026-05-28"
     },
     {
@@ -90,10 +97,10 @@
       "current_stop": 241.0925,
       "original_stop": 241.0925,
       "take_profit": 286.9624,
-      "current_price": 281.69,
-      "bars_in_trade": 3,
-      "unrealized_pct": 14.6853,
-      "trade_id": "BRE_PANW_GAP_FILL_efd899",
+      "current_price": 257.77,
+      "bars_in_trade": 2,
+      "unrealized_pct": 4.9467,
+      "trade_id": "BRE_PANW_GAP_FILL_4070e9",
       "entry_date": "2026-05-27"
     },
     {
@@ -103,24 +110,11 @@
       "current_stop": 127.1612,
       "original_stop": 127.1612,
       "take_profit": 172.9712,
-      "current_price": 143.48,
-      "bars_in_trade": 3,
-      "unrealized_pct": -4.1678,
-      "trade_id": "BRE_RKLB_GAP_FILL_0500bc",
+      "current_price": 148.03,
+      "bars_in_trade": 2,
+      "unrealized_pct": -1.1288,
+      "trade_id": "BRE_RKLB_GAP_FILL_e834ec",
       "entry_date": "2026-05-27"
-    },
-    {
-      "ticker": "UMC",
-      "strategy": "GAP_FILL",
-      "entry_price": 22.64,
-      "current_stop": 20.9342,
-      "original_stop": 20.9342,
-      "take_profit": 25.6467,
-      "current_price": 22.18,
-      "bars_in_trade": 1,
-      "unrealized_pct": -2.0318,
-      "trade_id": "BRE_UMC_GAP_FILL_c482f9",
-      "entry_date": "2026-05-29"
     }
   ]
 }

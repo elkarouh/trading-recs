@@ -1,0 +1,55 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:44:50+00:00",
+  "signal_date": "2025-07-29",
+  "buy": [
+    {
+      "ticker": "BE",
+      "strategy": "GAP_FILL",
+      "entry_price": 34.7,
+      "stop_loss": 31.9851,
+      "take_profit": 40.1297,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "CRSP",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 67.91,
+      "exit_price": 60.8433,
+      "pnl_pct": -10.406,
+      "bars_in_trade": 5,
+      "trade_id": "BRE_CRSP_GAP_FILL_af0c35",
+      "entry_date": "2025-07-23"
+    },
+    {
+      "ticker": "NVTS",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 8.875,
+      "exit_price": 8.45,
+      "pnl_pct": -4.7887,
+      "bars_in_trade": 3,
+      "trade_id": "BRE_NVTS_GAP_FILL_c2951b",
+      "entry_date": "2025-07-25"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "CLF",
+      "strategy": "GAP_FILL",
+      "entry_price": 11.4,
+      "current_stop": 10.4047,
+      "original_stop": 10.4047,
+      "take_profit": 13.1655,
+      "current_price": 10.86,
+      "bars_in_trade": 4,
+      "unrealized_pct": -4.7368,
+      "trade_id": "BRE_CLF_GAP_FILL_99174a",
+      "entry_date": "2025-07-24"
+    }
+  ]
+}

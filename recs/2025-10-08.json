@@ -1,84 +1,84 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T06:52:01+00:00",
-  "signal_date": "2025-10-08",
+  "generated_at": "2026-06-26T09:15:28+00:00",
+  "signal_date": "2025-10-01",
   "buy": [
     {
-      "ticker": "LYSDY",
+      "ticker": "TSLA",
       "strategy": "GAP_FILL",
-      "entry_price": 13.01,
-      "stop_loss": 12.3265,
-      "take_profit": 14.3769,
+      "entry_price": 451.575,
+      "stop_loss": 427.3507,
+      "take_profit": 500.0235,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "NTLA",
+      "strategy": "GAP_FILL",
+      "entry_price": 18.215,
+      "stop_loss": 16.4732,
+      "take_profit": 21.6985,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "ACMR",
+      "strategy": "GAP_FILL",
+      "entry_price": 41.3025,
+      "stop_loss": 38.3498,
+      "take_profit": 47.208,
       "confidence": 0.95
     }
   ],
-  "sell": [],
+  "sell": [
+    {
+      "ticker": "LYFT",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 22.36,
+      "exit_price": 21.98,
+      "pnl_pct": -1.6995,
+      "bars_in_trade": 9,
+      "trade_id": "BRE_LYFT_GAP_FILL_5650d8",
+      "entry_date": "2025-09-19"
+    },
+    {
+      "ticker": "NBIS",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 109.93,
+      "exit_price": 111.715,
+      "pnl_pct": 1.6238,
+      "bars_in_trade": 4,
+      "trade_id": "BRE_NBIS_GAP_FILL_3dbdff",
+      "entry_date": "2025-09-26"
+    }
+  ],
   "adjust_stop": [],
   "hold": [
     {
-      "ticker": "APLD",
+      "ticker": "ASML",
       "strategy": "GAP_FILL",
-      "entry_price": 27.72,
-      "current_stop": 24.9255,
-      "original_stop": 24.9255,
-      "take_profit": 33.6239,
-      "current_price": 27.94,
-      "bars_in_trade": 1,
-      "unrealized_pct": 0.7937,
-      "trade_id": "BRE_APLD_GAP_FILL_5ac256",
-      "entry_date": "2025-10-08"
-    },
-    {
-      "ticker": "INTC",
-      "strategy": "GAP_FILL",
-      "entry_price": 37.95,
-      "current_stop": 33.9636,
-      "original_stop": 33.9636,
-      "take_profit": 41.6253,
-      "current_price": 37.43,
-      "bars_in_trade": 4,
-      "unrealized_pct": -1.3702,
-      "trade_id": "BRE_INTC_GAP_FILL_1d36f5",
-      "entry_date": "2025-10-03"
-    },
-    {
-      "ticker": "ONDS",
-      "strategy": "GAP_FILL",
-      "entry_price": 11.265,
-      "current_stop": 9.6973,
-      "original_stop": 9.6973,
-      "take_profit": 13.6692,
-      "current_price": 11.26,
-      "bars_in_trade": 1,
-      "unrealized_pct": -0.0444,
-      "trade_id": "BRE_ONDS_GAP_FILL_56eabc",
-      "entry_date": "2025-10-08"
+      "entry_price": 949.72,
+      "current_stop": 931.7079,
+      "original_stop": 931.7079,
+      "take_profit": 1032.6341,
+      "current_price": 1003.27,
+      "bars_in_trade": 6,
+      "unrealized_pct": 5.6385,
+      "trade_id": "BRE_ASML_GAP_FILL_f805a6",
+      "entry_date": "2025-09-24"
     },
     {
       "ticker": "PL",
       "strategy": "GAP_FILL",
-      "entry_price": 16.55,
-      "current_stop": 14.1628,
-      "original_stop": 14.1628,
-      "take_profit": 17.7769,
-      "current_price": 15.6,
+      "entry_price": 12.84,
+      "current_stop": 11.6908,
+      "original_stop": 11.6908,
+      "take_profit": 14.7635,
+      "current_price": 13.77,
       "bars_in_trade": 1,
-      "unrealized_pct": -5.7402,
-      "trade_id": "BRE_PL_GAP_FILL_49af5f",
-      "entry_date": "2025-10-08"
-    },
-    {
-      "ticker": "SYM",
-      "strategy": "GAP_FILL",
-      "entry_price": 66.2,
-      "current_stop": 62.387,
-      "original_stop": 62.387,
-      "take_profit": 80.1411,
-      "current_price": 68.83,
-      "bars_in_trade": 1,
-      "unrealized_pct": 3.9728,
-      "trade_id": "BRE_SYM_GAP_FILL_ba12ed",
-      "entry_date": "2025-10-08"
+      "unrealized_pct": 7.243,
+      "trade_id": "BRE_PL_GAP_FILL_5d509a",
+      "entry_date": "2025-10-01"
     }
   ]
 }

@@ -1,44 +1,36 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:40:52+00:00",
-  "signal_date": "2025-09-02",
-  "buy": [
-    {
-      "ticker": "MDB",
-      "strategy": "GAP_FILL",
-      "entry_price": 315.0938,
-      "stop_loss": 291.4048,
-      "take_profit": 362.4716,
-      "confidence": 0.95
-    }
-  ],
-  "sell": [
-    {
-      "ticker": "ARWR",
-      "strategy": "GAP_FILL",
-      "exit_reason": "TAKE_PROFIT",
-      "entry_price": 22.43,
-      "exit_price": 25.3051,
-      "pnl_pct": 12.8183,
-      "bars_in_trade": 2,
-      "trade_id": "BRE_ARWR_GAP_FILL_e707e7",
-      "entry_date": "2025-08-29"
-    }
-  ],
+  "generated_at": "2026-06-26T10:13:32+00:00",
+  "signal_date": "2025-08-26",
+  "buy": [],
+  "sell": [],
   "adjust_stop": [],
   "hold": [
     {
-      "ticker": "BE",
+      "ticker": "HL",
       "strategy": "GAP_FILL",
-      "entry_price": 53.88,
-      "current_stop": 48.857,
-      "original_stop": 48.857,
-      "take_profit": 61.9159,
-      "current_price": 51.35,
-      "bars_in_trade": 2,
-      "unrealized_pct": -4.6956,
-      "trade_id": "BRE_BE_GAP_FILL_3ca0ae",
-      "entry_date": "2025-08-29"
+      "entry_price": 7.67,
+      "current_stop": 7.2371,
+      "original_stop": 7.2371,
+      "take_profit": 8.6557,
+      "current_price": 8.0,
+      "bars_in_trade": 8,
+      "unrealized_pct": 4.3025,
+      "trade_id": "BRE_HL_GAP_FILL_dba7b5",
+      "entry_date": "2025-08-15"
+    },
+    {
+      "ticker": "RUN",
+      "strategy": "GAP_FILL",
+      "entry_price": 15.53,
+      "current_stop": 13.475,
+      "original_stop": 13.475,
+      "take_profit": 19.2958,
+      "current_price": 16.61,
+      "bars_in_trade": 5,
+      "unrealized_pct": 6.9543,
+      "trade_id": "BRE_RUN_GAP_FILL_00525d",
+      "entry_date": "2025-08-20"
     }
   ]
 }

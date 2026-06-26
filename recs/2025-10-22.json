@@ -1,7 +1,7 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:01:34+00:00",
-  "signal_date": "2025-10-22",
+  "generated_at": "2026-06-26T09:27:03+00:00",
+  "signal_date": "2025-10-15",
   "buy": [],
   "sell": [],
   "adjust_stop": [],
@@ -9,15 +9,15 @@
     {
       "ticker": "UPST",
       "strategy": "VWAP_WASHOUT",
-      "entry_price": 47.42,
-      "current_stop": 44.64,
-      "original_stop": 44.64,
-      "take_profit": 53.475,
-      "current_price": 50.38,
+      "entry_price": 49.57,
+      "current_stop": 46.6368,
+      "original_stop": 46.6368,
+      "take_profit": 55.867,
+      "current_price": 51.07,
       "bars_in_trade": 3,
-      "unrealized_pct": 6.2421,
-      "trade_id": "BRE_UPST_VWAP_WASHOUT_75beae",
-      "entry_date": "2025-10-20"
+      "unrealized_pct": 3.026,
+      "trade_id": "BRE_UPST_VWAP_WASHOUT_bf79de",
+      "entry_date": "2025-10-13"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:48:49+00:00",
+  "signal_date": "2025-11-12",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "AXTI",
+      "strategy": "GAP_FILL",
+      "entry_price": 10.54,
+      "current_stop": 9.2445,
+      "original_stop": 9.2445,
+      "take_profit": 13.176,
+      "current_price": 10.98,
+      "bars_in_trade": 1,
+      "unrealized_pct": 4.1746,
+      "trade_id": "BRE_AXTI_GAP_FILL_1e49d6",
+      "entry_date": "2025-11-12"
+    }
+  ]
+}

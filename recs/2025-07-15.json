@@ -1,70 +1,110 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:01:05+00:00",
-  "signal_date": "2025-07-15",
+  "generated_at": "2026-06-26T09:25:01+00:00",
+  "signal_date": "2025-07-08",
   "buy": [
+    {
+      "ticker": "UPST",
+      "strategy": "GAP_FILL",
+      "entry_price": 77.265,
+      "stop_loss": 71.5781,
+      "take_profit": 88.6388,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "CIFR",
+      "strategy": "GAP_FILL",
+      "entry_price": 6.0075,
+      "stop_loss": 5.3431,
+      "take_profit": 7.3363,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "WYNN",
+      "strategy": "GAP_FILL",
+      "entry_price": 110.14,
+      "stop_loss": 105.6409,
+      "take_profit": 119.1381,
+      "confidence": 0.95
+    },
     {
       "ticker": "RKLB",
       "strategy": "GAP_FILL",
-      "entry_price": 44.0477,
-      "stop_loss": 40.3937,
-      "take_profit": 51.3559,
+      "entry_price": 38.7875,
+      "stop_loss": 35.1961,
+      "take_profit": 45.9702,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "JOBY",
+      "strategy": "GAP_FILL",
+      "entry_price": 11.1685,
+      "stop_loss": 10.114,
+      "take_profit": 13.2775,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "IREN",
+      "strategy": "GAP_FILL",
+      "entry_price": 17.365,
+      "stop_loss": 15.5348,
+      "take_profit": 21.0254,
       "confidence": 0.95
     }
   ],
   "sell": [
     {
-      "ticker": "IREN",
+      "ticker": "ORCL",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
-      "entry_price": 17.37,
-      "exit_price": 17.33,
-      "pnl_pct": -0.2303,
-      "bars_in_trade": 5,
-      "trade_id": "BRE_IREN_GAP_FILL_ac089e",
-      "entry_date": "2025-07-09"
+      "exit_reason": "TAKE_PROFIT",
+      "entry_price": 217.68,
+      "exit_price": 241.0975,
+      "pnl_pct": 10.7578,
+      "bars_in_trade": 4,
+      "trade_id": "BRE_ORCL_GAP_FILL_8108ca",
+      "entry_date": "2025-07-02"
     }
   ],
   "adjust_stop": [],
   "hold": [
     {
-      "ticker": "CIFR",
+      "ticker": "BBAI",
       "strategy": "GAP_FILL",
-      "entry_price": 6.14,
-      "current_stop": 5.3431,
-      "original_stop": 5.3431,
-      "take_profit": 7.3363,
-      "current_price": 5.97,
-      "bars_in_trade": 5,
-      "unrealized_pct": -2.7687,
-      "trade_id": "BRE_CIFR_GAP_FILL_38b2ae",
-      "entry_date": "2025-07-09"
+      "entry_price": 7.765,
+      "current_stop": 6.8696,
+      "original_stop": 6.8696,
+      "take_profit": 9.8333,
+      "current_price": 7.59,
+      "bars_in_trade": 2,
+      "unrealized_pct": -2.2537,
+      "trade_id": "BRE_BBAI_GAP_FILL_36c513",
+      "entry_date": "2025-07-07"
     },
     {
-      "ticker": "COIN",
+      "ticker": "FLNC",
       "strategy": "GAP_FILL",
-      "entry_price": 390.19,
-      "current_stop": 352.0427,
-      "original_stop": 352.0427,
-      "take_profit": 435.5621,
-      "current_price": 388.02,
-      "bars_in_trade": 3,
-      "unrealized_pct": -0.5561,
-      "trade_id": "BRE_COIN_GAP_FILL_83a7d6",
-      "entry_date": "2025-07-11"
+      "entry_price": 8.275,
+      "current_stop": 7.2105,
+      "original_stop": 7.2105,
+      "take_profit": 9.6704,
+      "current_price": 8.41,
+      "bars_in_trade": 2,
+      "unrealized_pct": 1.6314,
+      "trade_id": "BRE_FLNC_GAP_FILL_114b76",
+      "entry_date": "2025-07-07"
     },
     {
-      "ticker": "SYM",
+      "ticker": "HOOD",
       "strategy": "GAP_FILL",
-      "entry_price": 47.08,
-      "current_stop": 43.7079,
-      "original_stop": 43.7079,
-      "take_profit": 56.4199,
-      "current_price": 48.55,
-      "bars_in_trade": 3,
-      "unrealized_pct": 3.1223,
-      "trade_id": "BRE_SYM_GAP_FILL_9308e2",
-      "entry_date": "2025-07-11"
+      "entry_price": 93.59,
+      "current_stop": 86.8077,
+      "original_stop": 86.8077,
+      "take_profit": 109.6221,
+      "current_price": 91.27,
+      "bars_in_trade": 2,
+      "unrealized_pct": -2.4789,
+      "trade_id": "BRE_HOOD_GAP_FILL_8ccd29",
+      "entry_date": "2025-07-07"
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:29:17+00:00",
+  "signal_date": "2026-01-23",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": []
+}

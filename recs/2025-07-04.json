@@ -1,0 +1,40 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:16:14+00:00",
+  "signal_date": "2025-07-01",
+  "buy": [
+    {
+      "ticker": "SYM",
+      "strategy": "GAP_FILL",
+      "entry_price": 39.3057,
+      "stop_loss": 35.8781,
+      "take_profit": 46.161,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "ORCL",
+      "strategy": "GAP_FILL",
+      "entry_price": 219.435,
+      "stop_loss": 208.6037,
+      "take_profit": 241.0975,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "AAOI",
+      "strategy": "GAP_FILL",
+      "entry_price": 27.91,
+      "current_stop": 23.5466,
+      "original_stop": 23.5466,
+      "take_profit": 33.2543,
+      "current_price": 25.35,
+      "bars_in_trade": 3,
+      "unrealized_pct": -9.1723,
+      "trade_id": "BRE_AAOI_GAP_FILL_346a9c",
+      "entry_date": "2025-06-27"
+    }
+  ]
+}

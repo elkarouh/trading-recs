@@ -1,68 +1,90 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:29:30+00:00",
-  "signal_date": "2025-08-19",
+  "generated_at": "2026-06-26T09:59:45+00:00",
+  "signal_date": "2025-08-12",
   "buy": [
     {
-      "ticker": "RUN",
+      "ticker": "LYSDY",
       "strategy": "GAP_FILL",
-      "entry_price": 15.4152,
-      "stop_loss": 13.475,
-      "take_profit": 19.2958,
+      "entry_price": 8.6775,
+      "stop_loss": 8.2282,
+      "take_profit": 9.5761,
       "confidence": 0.95
-    }
-  ],
-  "sell": [
+    },
+    {
+      "ticker": "PLTR",
+      "strategy": "GAP_FILL",
+      "entry_price": 185.9425,
+      "stop_loss": 176.2577,
+      "take_profit": 205.312,
+      "confidence": 0.95
+    },
     {
       "ticker": "ALAB",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
-      "entry_price": 193.66,
-      "exit_price": 172.5874,
-      "pnl_pct": -10.8812,
-      "bars_in_trade": 5,
-      "trade_id": "BRE_ALAB_GAP_FILL_153d8b",
-      "entry_date": "2025-08-13"
+      "entry_price": 186.8238,
+      "stop_loss": 169.4924,
+      "take_profit": 221.4864,
+      "confidence": 0.95
     },
     {
-      "ticker": "APLD",
+      "ticker": "BE",
       "strategy": "GAP_FILL",
-      "exit_reason": "BREAKEVEN_STOP",
-      "entry_price": 14.98,
-      "exit_price": 15.756,
-      "pnl_pct": 5.1802,
-      "bars_in_trade": 9,
-      "trade_id": "BRE_APLD_GAP_FILL_044290",
-      "entry_date": "2025-08-07"
+      "entry_price": 39.9163,
+      "stop_loss": 36.2693,
+      "take_profit": 47.2101,
+      "confidence": 0.95
+    },
+    {
+      "ticker": "NBIS",
+      "strategy": "GAP_FILL",
+      "entry_price": 74.1685,
+      "stop_loss": 67.1865,
+      "take_profit": 88.1325,
+      "confidence": 0.95
     }
   ],
+  "sell": [],
   "adjust_stop": [],
   "hold": [
     {
-      "ticker": "ANET",
+      "ticker": "APLD",
       "strategy": "GAP_FILL",
-      "entry_price": 136.63,
-      "current_stop": 131.9006,
-      "original_stop": 131.9006,
-      "take_profit": 154.1588,
-      "current_price": 132.78,
+      "entry_price": 14.98,
+      "current_stop": 13.0318,
+      "original_stop": 13.0318,
+      "take_profit": 18.1227,
+      "current_price": 14.97,
       "bars_in_trade": 4,
-      "unrealized_pct": -2.8178,
-      "trade_id": "BRE_ANET_GAP_FILL_7aacbe",
-      "entry_date": "2025-08-14"
+      "unrealized_pct": -0.0668,
+      "trade_id": "BRE_APLD_GAP_FILL_c9c5fd",
+      "entry_date": "2025-08-07"
     },
     {
-      "ticker": "HL",
+      "ticker": "AU",
       "strategy": "GAP_FILL",
-      "entry_price": 7.67,
-      "current_stop": 7.2371,
-      "original_stop": 7.2371,
-      "take_profit": 8.6557,
-      "current_price": 7.44,
-      "bars_in_trade": 3,
-      "unrealized_pct": -2.9987,
-      "trade_id": "BRE_HL_GAP_FILL_2a5053",
-      "entry_date": "2025-08-15"
+      "entry_price": 58.72,
+      "current_stop": 54.1678,
+      "original_stop": 54.1678,
+      "take_profit": 63.7894,
+      "current_price": 57.25,
+      "bars_in_trade": 4,
+      "unrealized_pct": -2.5034,
+      "trade_id": "BRE_AU_GAP_FILL_a55273",
+      "entry_date": "2025-08-07"
+    },
+    {
+      "ticker": "BE",
+      "strategy": "GAP_FILL",
+      "entry_price": 38.01,
+      "current_stop": 33.9463,
+      "original_stop": 33.9463,
+      "take_profit": 44.3449,
+      "current_price": 41.25,
+      "bars_in_trade": 5,
+      "unrealized_pct": 8.5241,
+      "trade_id": "BRE_BE_GAP_FILL_26b301",
+      "entry_date": "2025-08-06"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:37:44+00:00",
+  "signal_date": "2025-10-29",
+  "buy": [],
+  "sell": [
+    {
+      "ticker": "AXTI",
+      "strategy": "GAP_FILL",
+      "exit_reason": "FILL_EXPIRED",
+      "entry_price": 6.4,
+      "exit_price": 6.4,
+      "pnl_pct": 0.0,
+      "bars_in_trade": 0,
+      "trade_id": "BRE_AXTI_GAP_FILL_f7c10f",
+      "entry_date": ""
+    }
+  ],
+  "adjust_stop": [],
+  "hold": []
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T10:03:40+00:00",
+  "signal_date": "2025-08-19",
+  "buy": [
+    {
+      "ticker": "RUN",
+      "strategy": "GAP_FILL",
+      "entry_price": 15.4152,
+      "stop_loss": 13.475,
+      "take_profit": 19.2958,
+      "confidence": 0.95
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "ALAB",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 193.66,
+      "exit_price": 172.5874,
+      "pnl_pct": -10.8812,
+      "bars_in_trade": 5,
+      "trade_id": "BRE_ALAB_GAP_FILL_b8ac24",
+      "entry_date": "2025-08-13"
+    },
+    {
+      "ticker": "APLD",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 14.98,
+      "exit_price": 15.756,
+      "pnl_pct": 5.1802,
+      "bars_in_trade": 9,
+      "trade_id": "BRE_APLD_GAP_FILL_3dcfbc",
+      "entry_date": "2025-08-07"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ANET",
+      "strategy": "GAP_FILL",
+      "entry_price": 136.63,
+      "current_stop": 131.9006,
+      "original_stop": 131.9006,
+      "take_profit": 154.1588,
+      "current_price": 132.78,
+      "bars_in_trade": 4,
+      "unrealized_pct": -2.8178,
+      "trade_id": "BRE_ANET_GAP_FILL_c19128",
+      "entry_date": "2025-08-14"
+    },
+    {
+      "ticker": "HL",
+      "strategy": "GAP_FILL",
+      "entry_price": 7.67,
+      "current_stop": 7.2371,
+      "original_stop": 7.2371,
+      "take_profit": 8.6557,
+      "current_price": 7.44,
+      "bars_in_trade": 3,
+      "unrealized_pct": -2.9987,
+      "trade_id": "BRE_HL_GAP_FILL_ad40a0",
+      "entry_date": "2025-08-15"
+    }
+  ]
+}

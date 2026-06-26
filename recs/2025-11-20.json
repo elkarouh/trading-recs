@@ -1,0 +1,137 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:53:11+00:00",
+  "signal_date": "2025-11-19",
+  "buy": [
+    {
+      "ticker": "RDW",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 5.48,
+      "stop_loss": 5.2608,
+      "take_profit": 6.302,
+      "confidence": 0.67
+    },
+    {
+      "ticker": "LCID",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 12.47,
+      "stop_loss": 11.9712,
+      "take_profit": 14.3405,
+      "confidence": 0.64
+    }
+  ],
+  "sell": [
+    {
+      "ticker": "MARA",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 11.87,
+      "exit_price": 11.4048,
+      "pnl_pct": -3.9191,
+      "bars_in_trade": 1,
+      "trade_id": "BRE_MARA_VWAP_WASHOUT_82cdc3",
+      "entry_date": "2025-11-19"
+    },
+    {
+      "ticker": "OSCR",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 14.64,
+      "exit_price": 14.1216,
+      "pnl_pct": -3.541,
+      "bars_in_trade": 1,
+      "trade_id": "BRE_OSCR_VWAP_WASHOUT_802823",
+      "entry_date": "2025-11-19"
+    },
+    {
+      "ticker": "QUBT",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 12.5,
+      "exit_price": 11.8464,
+      "pnl_pct": -5.2288,
+      "bars_in_trade": 1,
+      "trade_id": "BRE_QUBT_VWAP_WASHOUT_2b57ba",
+      "entry_date": "2025-11-19"
+    },
+    {
+      "ticker": "RBLX",
+      "strategy": "VWAP_WASHOUT",
+      "exit_reason": "STOP_LOSS",
+      "entry_price": 100.33,
+      "exit_price": 97.6608,
+      "pnl_pct": -2.6604,
+      "bars_in_trade": 1,
+      "trade_id": "BRE_RBLX_VWAP_WASHOUT_393572",
+      "entry_date": "2025-11-19"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "ACHR",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 7.65,
+      "current_stop": 7.3056,
+      "original_stop": 7.3056,
+      "take_profit": 8.7515,
+      "current_price": 7.47,
+      "bars_in_trade": 1,
+      "unrealized_pct": -2.3529,
+      "trade_id": "BRE_ACHR_VWAP_WASHOUT_4b514f",
+      "entry_date": "2025-11-19"
+    },
+    {
+      "ticker": "LYSDY",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 9.09,
+      "current_stop": 8.7744,
+      "original_stop": 8.7744,
+      "take_profit": 10.511,
+      "current_price": 10.07,
+      "bars_in_trade": 4,
+      "unrealized_pct": 10.7811,
+      "trade_id": "BRE_LYSDY_VWAP_WASHOUT_1b27b1",
+      "entry_date": "2025-11-14"
+    },
+    {
+      "ticker": "NTLA",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 8.45,
+      "current_stop": 8.1408,
+      "original_stop": 8.1408,
+      "take_profit": 9.752,
+      "current_price": 8.24,
+      "bars_in_trade": 2,
+      "unrealized_pct": -2.4852,
+      "trade_id": "BRE_NTLA_VWAP_WASHOUT_ce479a",
+      "entry_date": "2025-11-18"
+    },
+    {
+      "ticker": "SOUN",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 11.66,
+      "current_stop": 11.0688,
+      "original_stop": 11.0688,
+      "take_profit": 13.2595,
+      "current_price": 11.63,
+      "bars_in_trade": 1,
+      "unrealized_pct": -0.2573,
+      "trade_id": "BRE_SOUN_VWAP_WASHOUT_888659",
+      "entry_date": "2025-11-19"
+    },
+    {
+      "ticker": "UPST",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 38.17,
+      "current_stop": 36.3936,
+      "original_stop": 36.3936,
+      "take_profit": 43.5965,
+      "current_price": 37.27,
+      "bars_in_trade": 1,
+      "unrealized_pct": -2.3579,
+      "trade_id": "BRE_UPST_VWAP_WASHOUT_414ff3",
+      "entry_date": "2025-11-19"
+    }
+  ]
+}

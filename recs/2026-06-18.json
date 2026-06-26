@@ -1,7 +1,7 @@
 {
   "schema": "my_bot.recommendations.v1",
-  "generated_at": "2026-06-26T07:58:00+00:00",
-  "signal_date": "2026-06-18",
+  "generated_at": "2026-06-26T10:07:38+00:00",
+  "signal_date": "2026-06-11",
   "buy": [],
   "sell": [],
   "adjust_stop": [],
@@ -13,10 +13,10 @@
       "current_stop": 45.2539,
       "original_stop": 45.2539,
       "take_profit": 54.1221,
-      "current_price": 46.84,
-      "bars_in_trade": 11,
-      "unrealized_pct": -3.8588,
-      "trade_id": "BRE_MGM_GAP_FILL_beb1b3",
+      "current_price": 47.22,
+      "bars_in_trade": 6,
+      "unrealized_pct": -3.0788,
+      "trade_id": "BRE_MGM_GAP_FILL_a83782",
       "entry_date": "2026-06-04"
     }
   ]

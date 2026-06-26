@@ -1,0 +1,23 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:23:57+00:00",
+  "signal_date": "2025-10-15",
+  "buy": [],
+  "sell": [],
+  "adjust_stop": [],
+  "hold": [
+    {
+      "ticker": "UPST",
+      "strategy": "VWAP_WASHOUT",
+      "entry_price": 49.57,
+      "current_stop": 46.6368,
+      "original_stop": 46.6368,
+      "take_profit": 55.867,
+      "current_price": 51.07,
+      "bars_in_trade": 3,
+      "unrealized_pct": 3.026,
+      "trade_id": "BRE_UPST_VWAP_WASHOUT_e8af31",
+      "entry_date": "2025-10-13"
+    }
+  ]
+}

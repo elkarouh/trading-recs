@@ -1,0 +1,21 @@
+{
+  "schema": "my_bot.recommendations.v1",
+  "generated_at": "2026-06-26T09:06:57+00:00",
+  "signal_date": "2025-06-24",
+  "buy": [],
+  "sell": [
+    {
+      "ticker": "AG",
+      "strategy": "GAP_FILL",
+      "exit_reason": "BREAKEVEN_STOP",
+      "entry_price": 8.4,
+      "exit_price": 7.8425,
+      "pnl_pct": -6.6374,
+      "bars_in_trade": 9,
+      "trade_id": "BRE_AG_GAP_FILL_ca3fc9",
+      "entry_date": "2025-06-11"
+    }
+  ],
+  "adjust_stop": [],
+  "hold": []
+}
